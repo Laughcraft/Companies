@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Companies</string>
+	<string name="description_title">Описание</string>
+	<string name="phone_title">Телефон</string>
+	<string name="website_title">Сайт</string>
+	<string name="coordinates_title">Координаты</string>
+</resources>
