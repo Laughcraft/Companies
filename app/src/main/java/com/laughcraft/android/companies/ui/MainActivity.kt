@@ -18,9 +18,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        
-        //На MVVM меня уже не хватило =(
-        
+
         recycler_view_main.layoutManager = GridLayoutManager(this, 2)
         
         val adapter = MainAdapter(emptyList()) {
